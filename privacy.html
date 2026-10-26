@@ -20,20 +20,21 @@ a{color:var(--accent)}
 <main>
 <p><a href="index.html">← Gregory</a> · <a href="privacy-it.html">Italiano</a></p>
 <h1>Privacy policy</h1>
-<p class="muted">Last updated: 24 October 2026</p>
+<p class="muted">Last updated: 26 October 2026</p>
 
 <h2>1. Who is responsible</h2>
-<p>The data controller is Emilio Crespi, Italy, acting as an individual for the Gregory pilot. Contact: <a href="mailto:emespi90@gmail.com">emespi90@gmail.com</a>.</p>
+<p>The data controller is Emilio Crespi, Italy, acting as an individual for the Gregory pilot. Contact: <a href="mailto:emilio@emiliocrespi.it">emilio@emiliocrespi.it</a>.</p>
 
 <h2>2. What Gregory does</h2>
-<p>Gregory is a coaching service for amateur cyclists. It reads activities from the services you connect, compares them with your training plan and sends you messages after your workouts with analysis and that day's nutrition targets.</p>
+<p>Gregory is a coaching service for amateur cyclists. You add it as a connector to your AI assistant (Claude): it reads activities from the services you connect, builds your cyclist profile and answers your questions about your training and that day's nutrition targets. Access is by invitation.</p>
 
 <h2>3. What data we process</h2>
 <ul>
 <li><strong>Activity data</strong> from the services you connect (for example Garmin Connect, intervals.icu): duration, distance, elevation, speed, power, heart rate, cadence and activity files (FIT).</li>
 <li><strong>Daily health and wellness data</strong> from Garmin Connect, if you allow it: sleep, resting heart rate, heart rate variability, stress, body battery, body weight and composition.</li>
 <li><strong>Data you give us</strong>: goals, availability, training plan, food rules and preferences, body weight.</li>
-<li><strong>Messaging data</strong>: your Telegram identifier and the messages exchanged with the service.</li>
+<li><strong>Connection data</strong>: your Garmin user identifier and Garmin access tokens (stored encrypted), connector access tokens (stored only in non-reversible form).</li>
+<li><strong>Garmin personal key</strong>, if you choose to import your history: we use it once to download your past activities and <strong>do not store it</strong>. We recommend revoking it on Garmin once the import is done.</li>
 </ul>
 <p>Heart rate, sleep, heart rate variability, body weight and food data can be <strong>health data</strong> under Article 9 GDPR. We process them only with your <strong>explicit consent</strong>, which you can withdraw at any time.</p>
 
@@ -47,8 +48,7 @@ a{color:var(--accent)}
 <h2>5. Who else processes it</h2>
 <ul>
 <li><strong>Hosting</strong>: a cloud provider with servers in the European Union.</li>
-<li><strong>Anthropic PBC</strong> (Claude API, USA): writes the text of your post-ride messages from your activity summary and plan. Under its commercial terms, API data is not used to train its models.</li>
-<li><strong>Telegram</strong>: delivers the messages you receive from the Gregory bot.</li>
+<li><strong>Claude (Anthropic PBC, USA)</strong>: the assistant you chose to connect to Gregory. It receives your data only when you ask it about your training or profile. Claude's processing follows the terms and settings of your Anthropic account.</li>
 </ul>
 <p>Data you share from Garmin Connect is sent to Gregory, not to Garmin. Garmin's own processing is described in the <a href="https://www.garmin.com/privacy/connect/">Garmin Connect privacy policy</a>.</p>
 
@@ -59,7 +59,7 @@ a{color:var(--accent)}
 <p>While your account is active, and for up to 30 days after you disconnect or ask for deletion, unless you have explicitly agreed to a longer period. Each source service's own terms may require shorter retention, and we follow them.</p>
 
 <h2>8. Your rights</h2>
-<p>You can ask for access, correction, deletion, restriction, portability and objection, and withdraw your consent at any time, by writing to <a href="mailto:emespi90@gmail.com">emespi90@gmail.com</a>. You can disconnect any service from its own settings (for example Garmin Connect) or by asking us. You can lodge a complaint with the Italian data protection authority (<a href="https://www.garanteprivacy.it">Garante per la protezione dei dati personali</a>).</p>
+<p>You can ask for access, correction, deletion, restriction, portability and objection, and withdraw your consent at any time, by writing to <a href="mailto:emilio@emiliocrespi.it">emilio@emiliocrespi.it</a>. You can disconnect any service from its own settings (for example Garmin Connect) or by asking us. You can also ask Claude "delete my Gregory data": we delete everything immediately and remove the Garmin connection. You can lodge a complaint with the Italian data protection authority (<a href="https://www.garanteprivacy.it">Garante per la protezione dei dati personali</a>).</p>
 
 <h2>9. Changes</h2>
 <p>If this policy changes in a way that matters, we will tell you before the change applies.</p>
