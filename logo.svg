@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <rect width="300" height="300" rx="64" fill="#5CC4A6"/>
+  <g fill="#2B3138" stroke="#2B3138" stroke-linecap="round" stroke-linejoin="round">
+    <!-- legs -->
+    <path d="M150 200 L142 252 L124 262 M142 252 L150 266 M142 252 L160 262" fill="none" stroke-width="7"/>
+    <path d="M182 200 L192 250 L176 262 M192 250 L198 266 M192 250 L212 260" fill="none" stroke-width="7"/>
+    <!-- shaggy body -->
+    <path d="M112 150 C 120 112, 190 100, 228 128 C 250 144, 258 170, 246 190
+             L 240 182 L 234 200 L 224 190 L 216 208 L 206 196 L 196 212 L 186 198 L 174 212 L 166 198
+             L 154 210 L 146 196 L 134 204 L 130 188 C 116 182, 108 168, 112 150 Z" stroke-width="2"/>
+    <!-- neck -->
+    <path d="M128 150 C 116 126, 106 104, 104 78" fill="none" stroke-width="18"/>
+    <!-- head -->
+    <circle cx="100" cy="68" r="15" stroke="none"/>
+    <!-- beak -->
+    <path d="M88 64 L62 72 L88 76 Z" fill="#E8B04B" stroke="#E8B04B" stroke-width="3"/>
+  </g>
+  <!-- eye -->
+  <circle cx="98" cy="64" r="4" fill="#F6F7F6"/>
+  <circle cx="97" cy="64" r="2" fill="#2B3138"/>
+</svg>
