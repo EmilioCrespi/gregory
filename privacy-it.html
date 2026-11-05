@@ -36,7 +36,9 @@ a{color:var(--accent)}
 <li><strong>Dati giornalieri di salute e benessere</strong> da Garmin Connect o dal diario di benessere di intervals.icu, se lo autorizzi: sonno, frequenza cardiaca a riposo, variabilità cardiaca (HRV), stress, body battery, passi, peso e composizione corporea, metriche di forma come il VO2max.</li>
 <li><strong>Dati che ci dai tu</strong>: obiettivi, disponibilità, piano di allenamento, regole e preferenze alimentari, peso.</li>
 <li><strong>Dati di collegamento</strong>: identificativo utente Garmin e token di accesso a Garmin (conservati cifrati), token di accesso del connettore (conservati solo in forma non reversibile).</li>
-<li><strong>Chiave API di intervals.icu</strong>, se colleghi intervals.icu: la conserviamo cifrata per aggiornare i tuoi dati e scrivere le sedute del piano nel tuo calendario intervals.icu. Puoi revocarla in qualsiasi momento rigenerandola su intervals.icu.</li>
+<li><strong>Accesso a intervals.icu</strong>, se colleghi intervals.icu: l'autorizzazione che dai a Gregory (o la chiave API, se l'hai usata), conservata cifrata per aggiornare i tuoi dati e scrivere le sedute del piano nel tuo calendario intervals.icu. Puoi revocarla in qualsiasi momento da intervals.icu (Settings → Apps).</li>
+<li><strong>Dati di utilizzo</strong>: quali strumenti di Gregory usi, quando, quanto ci mettono e se vanno in errore, più gli eventi tecnici del servizio (sincronizzazioni, collegamenti). Non contengono i tuoi dati di allenamento o di salute.</li>
+<li><strong>Feedback</strong>: se lo vuoi, Claude manda a Gregory un breve riassunto di un problema o di un desiderio, solo dopo averti chiesto il permesso e senza valori di salute o di allenamento.</li>
 <li><strong>Chiave personale Garmin</strong>, se scegli di importare lo storico: la usiamo una sola volta per scaricare le tue attività passate e <strong>non la salviamo</strong>. Ti consigliamo di revocarla su Garmin a import finito.</li>
 </ul>
 <p>Frequenza cardiaca, sonno, HRV, peso e dati alimentari possono essere <strong>dati relativi alla salute</strong> (art. 9 GDPR). Li trattiamo solo con il tuo <strong>consenso esplicito</strong>, che puoi revocare in qualsiasi momento.</p>
@@ -45,21 +47,23 @@ a{color:var(--accent)}
 <ul>
 <li>Per fornirti il servizio di coaching richiesto (art. 6.1.b GDPR) e, per i dati sanitari, sulla base del tuo consenso esplicito (art. 9.2.a GDPR).</li>
 <li>Per la sicurezza e il funzionamento del servizio (legittimo interesse, art. 6.1.f GDPR).</li>
+<li>Per migliorare il servizio con i dati di utilizzo e i feedback (legittimo interesse, art. 6.1.f GDPR): una volta alla settimana un'analisi automatica li riassume e propone correzioni a Emilio, in segnalazioni private dove compari con un codice anonimo, mai con il tuo nome.</li>
 </ul>
 <p>Non usiamo i tuoi dati per pubblicità, non li vendiamo e non li condividiamo con altri utenti. I tuoi dati non vengono usati per addestrare modelli di intelligenza artificiale.</p>
 
 <h2>5. Chi altro li tratta</h2>
 <ul>
-<li><strong>Hosting</strong>: fornitore cloud con server nell'Unione Europea.</li>
-<li><strong>Claude (Anthropic PBC, USA)</strong>: l'assistente che hai scelto di collegare a Gregory. Riceve i tuoi dati solo quando gli fai una domanda sul tuo allenamento o sul tuo profilo. Il trattamento da parte di Claude segue i termini e le impostazioni del tuo account Anthropic.</li>
+<li><strong>Hosting</strong>: Google Cloud (Google LLC), con server negli Stati Uniti.</li>
+<li><strong>GitHub (GitHub Inc., USA)</strong>: ospita le segnalazioni private dell'analisi settimanale, che contengono solo dati di utilizzo e feedback con un codice anonimo.</li>
+<li><strong>Claude (Anthropic PBC, USA)</strong>: esegue anche l'analisi settimanale dei dati di utilizzo. È inoltre l'assistente che hai scelto di collegare a Gregory. Riceve i tuoi dati solo quando gli fai una domanda sul tuo allenamento o sul tuo profilo. Il trattamento da parte di Claude segue i termini e le impostazioni del tuo account Anthropic.</li>
 </ul>
 <p>I dati che condividi da Garmin Connect sono inviati a Gregory, non a Garmin. Il trattamento da parte di Garmin è descritto nell'<a href="https://www.garmin.com/privacy/connect/">informativa privacy di Garmin Connect</a>. Lo stesso vale per intervals.icu (<a href="https://www.intervals.icu/privacy-policy/">informativa di intervals.icu</a>). Gregory non legge dati da Strava.</p>
 
 <h2>6. Trasferimenti fuori dall'UE</h2>
-<p>Quando un fornitore tratta dati fuori dall'UE (es. Anthropic negli USA), il trasferimento si basa sull'EU-US Data Privacy Framework o sulle clausole contrattuali tipo della Commissione europea.</p>
+<p>Quando un fornitore tratta dati fuori dall'UE (es. Google Cloud e Anthropic negli USA), il trasferimento si basa sull'EU-US Data Privacy Framework o sulle clausole contrattuali tipo della Commissione europea.</p>
 
 <h2>7. Per quanto li conserviamo</h2>
-<p>Finché il tuo account è attivo e fino a 30 giorni dopo la disconnessione o la richiesta di cancellazione, salvo un periodo più lungo che tu abbia accettato esplicitamente. Se i termini di un servizio collegato impongono tempi più brevi, li rispettiamo.</p>
+<p>I dati di utilizzo per 90 giorni; i feedback per 90 giorni dopo essere stati esaminati. Gli altri dati finché il tuo account è attivo e fino a 30 giorni dopo la disconnessione o la richiesta di cancellazione, salvo un periodo più lungo che tu abbia accettato esplicitamente. Se i termini di un servizio collegato impongono tempi più brevi, li rispettiamo.</p>
 
 <h2>8. I tuoi diritti</h2>
 <p>Puoi chiedere accesso, rettifica, cancellazione, limitazione, portabilità e opposizione, e revocare il consenso in qualsiasi momento, scrivendo a <a href="mailto:emilio@emiliocrespi.it">emilio@emiliocrespi.it</a>. Puoi scollegare ogni servizio dalle sue impostazioni (es. Garmin Connect, intervals.icu) o chiedendolo a noi. Puoi anche chiedere a Claude "cancella i miei dati Gregory": cancelliamo subito tutto e annulliamo il collegamento con Garmin. Puoi presentare reclamo al <a href="https://www.garanteprivacy.it">Garante per la protezione dei dati personali</a>.</p>
